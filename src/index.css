@@ -3,4 +3,24 @@
 @theme {
   --font-primary: "Outfit", sans-serif;
   --color-primary: #144B8B;
+  --animate-glow: glow 0.4s ease-in-out;
 }
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 0px #093567;
+    }
+
+    100% {
+      background-color: #11345d;
+      text-shadow: 0 0 0px #377fd1;
+    }
+}
+
+
+
+.headerLinkStyle {
+  @apply text-primary text-lg font-normal hover:bg-primary/10
+}
+
+

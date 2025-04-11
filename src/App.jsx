@@ -1,3 +1,5 @@
+import { BrowserRouter } from "react-router-dom";
+
 import Header from "./components/Header";
 import MobileMenu from "./components/MobileMenu";
 import Hero from "./components/Hero";
@@ -10,19 +12,22 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return(
-    <div className="">
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <Hero />
+    <BrowserRouter>
+        <div className="">
+          <div className="min-h-screen flex flex-col">
+            <Header />
+            <Hero />
+          </div>
+        
+          <ProductMedia />
+          <ProductPrice />
+          <WhySection />
+          <CompanySection />
+          <Bannercta />
+          <Footer />
       </div>
-      
-      <ProductMedia />
-      <ProductPrice />
-      <WhySection />
-      <CompanySection />
-      <Bannercta />
-      <Footer />
-    </div>
+    </BrowserRouter>
+    
   )
 }
 
