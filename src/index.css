@@ -2,8 +2,15 @@
 
 @theme {
   --font-primary: "Outfit", sans-serif;
+
   --color-primary: #144B8B;
+  --color-black: #1E1E1E;
+  --color-gray: #555555;
+  --color-bggray: #FAFAFA;
+
   --animate-glow: glow 0.4s ease-in-out;
+
+  --breakpoint-3xl: 120rem;
 }
 
 @keyframes glow {
@@ -15,12 +22,6 @@
       background-color: #11345d;
       text-shadow: 0 0 0px #377fd1;
     }
-}
-
-
-
-.headerLinkStyle {
-  @apply text-primary text-lg font-normal hover:bg-primary/10
 }
 
 

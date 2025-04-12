@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header";
-import MobileMenu from "./components/MobileMenu";
 import Hero from "./components/Hero";
 import ProductMedia from "./components/ProductMedia";
 import ProductPrice from "./components/ProductPrice";
