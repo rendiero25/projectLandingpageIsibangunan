@@ -8,7 +8,7 @@ import Icon5 from "../assets/icons/thumbs-up.svg";
 const WhySection = () => {
     return(
         <div className="px-6 xl:px-24 py-20">
-            <div className="flex flex-col justify-center items-center xl:items-start gap-8">
+            <div className="flex flex-col justify-center items-center xl:items-start gap-8 3xl:gap-16">
                 <div className="flex flex-col justify-center items-center xl:items-start gap-4">
                     <h2 className="font-semibold text-center xl:text-left text-4xl 4xl:text-5xl text-black 2xl:leading-[3rem] 4xl:leading-[3.5rem] 4xl:max-w-3xl">
                         Kenapa Harus di isibangunan.com?
