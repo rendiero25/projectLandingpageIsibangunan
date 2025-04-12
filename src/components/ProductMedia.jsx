@@ -16,76 +16,46 @@ import Image5 from "../assets/images/image5.png";
 
 const ProductMedia = () => {
 
-    const contentStyle = {
-        margin: 0,
-        height: 'auto',
-        background: '#364d79',
-        display: 'flex',
-        justifyContent: 'center', // center horizontal
-        alignItems: 'center', 
-        textAlign: 'center',    // center vertical
-        color: '#fff',
-        fontSize: '32px'
-    };
-
     return(
-        <div className="px-6 py-10">
-            <div className="flex flex-col justify-between items-center gap-8">
+        <div className="px-6 xl:px-24 pt-10 pb-20">
+            <div className="flex flex-col justify-between items-center gap-8 4xl:gap-12">
                 <div className="flex flex-col xl:flex-row justify-between items-center gap-4">
-                    <h2 className="font-semibold text-center xl:text-left text-4xl 3xl:text-5xl text-black 2xl:leading-[3rem] 3xl:leading-[3.5rem] 3xl:max-w-3xl">
+                    <h2 className="w-full xl:w-1/2 font-semibold text-center xl:text-left text-4xl 4xl:text-5xl text-black 2xl:leading-[3rem] 4xl:leading-[3.5rem]">
                         Lihat Sendiri Kualitas & Skala Produksi Food Tray Kami – Bukti Nyata dari Pabrik Langsung & Produk Asli</h2>
-                    <p className="font-medium text-sm sm:text-lg 3xl:text-2xl text-center xl:text-left text-gray xl:max-w-md 2xl:max-w-full">
+                    <p className="w-full xl:w-1/2 font-medium text-sm sm:text-lg 4xl:text-2xl text-center xl:text-left text-gray">
                         Kami bukan hanya bicara soal kualitas—kami tunjukkan langsung lewat video produksi ribuan food tray stainless setiap hari, 
                         serta lihat koleksi lengkap food tray kami yang telah digunakan oleh rumah sakit, instansi pemerintah, dan penyedia catering 
                         besar. Semua produk ini siap kirim, harga langsung dari pabrik, dan memenuhi standar badan gizi nasional.</p>
                 </div>
-                <div className="flex flex-col xl:flex-row justify-between items-center gap-10">
-                    <div className="w-screen">
-                        <div className='px-6'>
-                            <Carousel arrows infinite={false}>
-                                <div>
-                                    <video style={contentStyle} src={Video1} controls className='rounded-3xl w-full'></video>
-                                </div>
-                                <div>
-                                    <video style={contentStyle} src={Video2} controls className='rounded-3xl w-full'></video>
-                                </div>
-                                <div>
-                                    <video style={contentStyle} src={Video3} controls className='rounded-3xl w-full'></video>
-                                </div>
-                                <div>
-                                    <video style={contentStyle} src={Video4} controls className='rounded-3xl w-full'></video>
-                                </div>
-                                <div>
-                                    <video style={contentStyle} src={Video5} controls className='rounded-3xl w-full'></video>
-                                </div>
-                                <div>
-                                    <video style={contentStyle} src={Video6} controls className='rounded-3xl w-full'></video>
-                                </div>
-                            </Carousel>
-                        </div>
-                    </div>
 
-                    <div className="w-screen">
-                        <div className='px-6'>
-                            <Carousel arrows infinite={false} className='flex items-center'>                        
-                                <div>
-                                    <img style={contentStyle} src={Image1} alt="foodtray-image1" className='rounded-3xl'/>
-                                </div>
-                                <div>
-                                    <img style={contentStyle} src={Image2} alt="foodtray-image2" className='rounded-3xl'/>
-                                </div>
-                                <div>
-                                    <img style={contentStyle} src={Image3} alt="foodtray-image3" className='rounded-3xl'/>
-                                </div>
-                                <div>
-                                    <img style={contentStyle} src={Image4} alt="foodtray-image4" className='rounded-3xl'/>
-                                </div>
-                                {/* <div>
-                                    <img style={contentStyle} src={Image5} alt="foodtray-image5" className='rounded-3xl'/>
-                                </div>                          */}
-                            </Carousel>
+                <div className="flex flex-col justify-between items-center gap-10">
+                    <div className='flex flex-col xl:flex-row justify-between items-center gap-5 xl:gap-8 4xl:gap-7'>
+                        <video src={Video1} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
+                        <video src={Video2} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
+                        <video src={Video3} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
+                        <video src={Video4} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
+                        <video src={Video5} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
+                    </div>
+                    
+                    <div className='flex flex-col xl:flex-row justify-between items-center gap-4'>
+                        <div className='flex flex-col xl:flex-row justify-between items-center'>
+                            <div className='w-full xl:w-1/2'>
+                                <img src={Image1} alt="produk1-image" />
+                            </div>
+                            <div className='w-full xl:w-1/2'>
+                                <img src={Image2} alt="produk2-image" />
+                            </div>
+                        </div>
+                        <div className='flex flex-col xl:flex-row justify-between items-center'>
+                            <div className='w-full xl:w-1/2 flex justify-center'>
+                                <img src={Image3} alt="produk3-image" className='w-[20rem] sm:w-[32rem] xl:w-[40rem]' />
+                            </div>
+                            <div className='w-full xl:w-1/2'>
+                                <img src={Image4} alt="produk4-image" />
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@ const Header = () => {
                 </a>
             </div>
             
-            <div className="hidden xl:flex w-1/2 flex-row justify-between items-center px-16 3xl:px-32">
+            <div className="hidden xl:flex w-1/2 flex-row justify-between items-center px-16 4xl:px-32">
                 <button 
                     onClick={toHeadline} 
                     className='text-primary text-lg font-normal hover:bg-primary/8 hover:px-4 hover:py-1 hover:rounded-md focus:animate-glow'>

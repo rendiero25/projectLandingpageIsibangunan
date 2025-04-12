@@ -10,7 +10,8 @@
 
   --animate-glow: glow 0.4s ease-in-out;
 
-  --breakpoint-3xl: 120rem;
+  --breakpoint-3xl: 83.5rem;
+  --breakpoint-4xl: 120rem;
 }
 
 @keyframes glow {
