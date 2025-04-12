@@ -18,20 +18,14 @@ const ProductMedia = () => {
 
     const contentStyle = {
         margin: 0,
-        height: 'auto', //160px 
-        color: '#fff',
-        lineHeight: '160px',
-        textAlign: 'center',
+        height: 'auto',
         background: '#364d79',
-    };
-
-    const contentStyle2 = {
-        margin: 0,
-        height: '150', //160px 
+        display: 'flex',
+        justifyContent: 'center', // center horizontal
+        alignItems: 'center', 
+        textAlign: 'center',    // center vertical
         color: '#fff',
-        lineHeight: '160px',
-        textAlign: 'center',
-        background: '#364d79',
+        fontSize: '32px'
     };
 
     return(
@@ -45,27 +39,27 @@ const ProductMedia = () => {
                         serta lihat koleksi lengkap food tray kami yang telah digunakan oleh rumah sakit, instansi pemerintah, dan penyedia catering 
                         besar. Semua produk ini siap kirim, harga langsung dari pabrik, dan memenuhi standar badan gizi nasional.</p>
                 </div>
-                <div className="flex flex-col xl:flex-row justify-between items-center gap-4">
+                <div className="flex flex-col xl:flex-row justify-between items-center gap-10">
                     <div className="w-screen">
                         <div className='px-6'>
                             <Carousel arrows infinite={false}>
                                 <div>
-                                    <video style={contentStyle} src={Video1} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video1} controls className='rounded-3xl w-full'></video>
                                 </div>
                                 <div>
-                                    <video style={contentStyle} src={Video2} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video2} controls className='rounded-3xl w-full'></video>
                                 </div>
                                 <div>
-                                    <video style={contentStyle} src={Video3} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video3} controls className='rounded-3xl w-full'></video>
                                 </div>
                                 <div>
-                                    <video style={contentStyle} src={Video4} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video4} controls className='rounded-3xl w-full'></video>
                                 </div>
                                 <div>
-                                    <video style={contentStyle} src={Video5} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video5} controls className='rounded-3xl w-full'></video>
                                 </div>
                                 <div>
-                                    <video style={contentStyle} src={Video6} controls className='rounded-3xl'></video>
+                                    <video style={contentStyle} src={Video6} controls className='rounded-3xl w-full'></video>
                                 </div>
                             </Carousel>
                         </div>
@@ -73,7 +67,7 @@ const ProductMedia = () => {
 
                     <div className="w-screen">
                         <div className='px-6'>
-                            <Carousel arrows infinite={false}>                        
+                            <Carousel arrows infinite={false} className='flex items-center'>                        
                                 <div>
                                     <img style={contentStyle} src={Image1} alt="foodtray-image1" className='rounded-3xl'/>
                                 </div>
@@ -86,9 +80,9 @@ const ProductMedia = () => {
                                 <div>
                                     <img style={contentStyle} src={Image4} alt="foodtray-image4" className='rounded-3xl'/>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <img style={contentStyle} src={Image5} alt="foodtray-image5" className='rounded-3xl'/>
-                                </div>                         
+                                </div>                          */}
                             </Carousel>
                         </div>
                     </div>
