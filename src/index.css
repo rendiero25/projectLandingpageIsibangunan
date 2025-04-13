@@ -6,7 +6,7 @@
   --color-primary: #144B8B;
   --color-black: #1E1E1E;
   --color-gray: #555555;
-  --color-bggray: #FAFAFA;
+  --color-bggray: #F0F0F0;
 
   --animate-glow: glow 0.4s ease-in-out;
 
@@ -19,8 +19,11 @@
         text-shadow: 0 0 0px #093567;
     }
 
+    50% {
+      text-shadow: 0 0 0px #d2dc10;
+    }
+
     100% {
-      background-color: #11345d;
       text-shadow: 0 0 0px #377fd1;
     }
 }

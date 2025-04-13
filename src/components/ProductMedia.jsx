@@ -17,12 +17,12 @@ import Image5 from "../assets/images/image5.png";
 const ProductMedia = () => {
 
     return(
-        <div className="px-6 xl:px-24 pt-10 pb-20">
+        <div id='ProductMedia' className="px-6 xl:px-24 py-20">
             <div className="flex flex-col justify-between items-center gap-8 4xl:gap-12">
-                <div className="flex flex-col xl:flex-row justify-between items-center gap-4">
+                <div className="flex flex-col xl:flex-row justify-between items-center xl:items-end gap-4">
                     <h2 className="w-full xl:w-1/2 font-semibold text-center xl:text-left text-4xl 4xl:text-5xl text-black 2xl:leading-[3rem] 4xl:leading-[3.5rem]">
                         Lihat Sendiri Kualitas & Skala Produksi Food Tray Kami – Bukti Nyata dari Pabrik Langsung & Produk Asli</h2>
-                    <p className="w-full xl:w-1/2 font-medium text-sm sm:text-lg 4xl:text-2xl text-center xl:text-left text-gray">
+                    <p className="w-full xl:w-1/2 font-medium text-sm sm:text-lg 4xl:text-xl text-center xl:text-left text-gray 4xl:max-w-2xl">
                         Kami bukan hanya bicara soal kualitas—kami tunjukkan langsung lewat video produksi ribuan food tray stainless setiap hari, 
                         serta lihat koleksi lengkap food tray kami yang telah digunakan oleh rumah sakit, instansi pemerintah, dan penyedia catering 
                         besar. Semua produk ini siap kirim, harga langsung dari pabrik, dan memenuhi standar badan gizi nasional.</p>

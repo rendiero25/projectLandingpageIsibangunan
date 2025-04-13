@@ -6,6 +6,7 @@ import ProductMedia from "./components/ProductMedia";
 import ProductPrice from "./components/ProductPrice";
 import WhySection from "./components/WhySection";
 import CompanySection from "./components/CompanySection";
+import Testimonial from "./components/Testimonial";
 import Bannercta from "./components/BannerCTA";
 import Footer from "./components/Footer";
 
@@ -22,6 +23,7 @@ const App = () => {
           <ProductPrice />
           <WhySection />
           <CompanySection />
+          <Testimonial />
           <Bannercta />
           <Footer />
       </div>

@@ -25,13 +25,13 @@ import Company17 from "../assets/images/transjakarta.webp";
 const CompanySection = () => {
 
     return(
-        <div className="px-6 xl:px-24 py-10">
+        <div id='CompanySection' className="px-6 xl:px-24 pt-5 pb-20 xl:py-20">
             <div className="flex flex-col justify-center items-center gap-8 3xl:gap-16">
-                <div className="flex flex-col xl:flex-row justify-between items-center gap-4 w-full">
+                <div className="flex flex-col xl:flex-row justify-between items-center xl:items-end gap-4 w-full">
                     <h2 className="font-semibold text-center xl:text-left text-4xl 4xl:text-5xl text-black 2xl:leading-[3rem] 4xl:leading-[3.5rem] xl:max-w-md">
                         Siapa yang Sudah Pakai Produk Kami?
                     </h2>             
-                    <p className="font-medium text-sm sm:text-lg 4xl:text-2xl text-center xl:text-left text-gray xl:max-w-md 2xl:max-w-full">
+                    <p className="font-medium text-sm sm:text-lg 4xl:text-xl text-center xl:text-left text-gray xl:max-w-md 2xl:max-w-full 4xl:max-w-3xl">
                         Kami telah memasok ribuan food tray ke Rumah Sakit Negeri & Swasta, 
                         Catering Perusahaan, Sekolah & Pondok Pesantren, Kementerian & Instansi Pemerintah
                     </p>
@@ -48,14 +48,14 @@ const CompanySection = () => {
                             freeMode={true}
                             modules={[FreeMode, Autoplay]}
                             className='mySwiper'>
-                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company1} alt="logo-airnav" className='w-1/2 xl:w-[15rem]'/></div></SwiperSlide>
+                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company1} alt="logo-airnav" className='w-1/2 xl:w-[15rem] xl:-mt-10'/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company2} alt="logo-jaksaagung" className="xl:w-[10rem]"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company3} alt="logo-kemenpertahanan" className="xl:w-[10rem]"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company4} alt="logo-kemenkelautan" className="xl:w-[10rem]"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company5} alt="logo-kemenpendidikan" className="xl:w-[10rem]"/></div></SwiperSlide>
-                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company6} alt="logo-kemenperindustrian" className="xl:w-[14rem]"/></div></SwiperSlide>
+                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company6} alt="logo-kemenperindustrian" className="xl:w-[14rem] xl:-mt-9"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company7} alt="logo-kemenpu" className="xl:w-[10rem]"/></div></SwiperSlide>
-                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company8} alt="logo-pertamina" className='w-1/2 xl:w-[15rem]'/></div></SwiperSlide>
+                                <SwiperSlide><div className='flex justify-center items-center'><img src={Company8} alt="logo-pertamina" className='w-1/2 xl:w-[15rem] xl:-mt-10'/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company9} alt="logo-rsgatots" className="xl:w-[10rem]"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company10} alt="logo-rshkbp" className="xl:w-[10rem]"/></div></SwiperSlide>
                                 <SwiperSlide><div className='flex justify-center items-center'><img src={Company11} alt="logo-rsimc" className="xl:w-[10rem]"/></div></SwiperSlide>
