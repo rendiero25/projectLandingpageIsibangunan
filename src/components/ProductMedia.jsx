@@ -9,10 +9,11 @@ import Video5 from "../assets/videos/video5.mp4";
 import Video6 from "../assets/videos/video6.mp4";
 
 import Image1 from "../assets/images/image1.jpeg";
-import Image2 from "../assets/images/image2.jpeg";
+// import Image2 from "../assets/images/image2.jpeg";
 import Image3 from "../assets/images/image3.jpeg";
 import Image4 from "../assets/images/image4.jpeg";
-import Image5 from "../assets/images/image5.png";
+import Image2A from "../assets/images/image2a.jpg";
+import Image2B from "../assets/images/image2b.jpg";
 
 const ProductMedia = () => {
 
@@ -37,25 +38,28 @@ const ProductMedia = () => {
                         <video src={Video5} controls className='rounded-3xl w-full xl:w-[12rem] 2xl:w-[15.2rem] 3xl:w-[12.9rem] 4xl:w-[20.1rem]'></video>
                     </div>
                     
-                    <div className='flex flex-col xl:flex-row justify-between items-center gap-4'>
-                        <div className='flex flex-col xl:flex-row justify-between items-center'>
+                    <div className='flex flex-col justify-between xl:justify-center items-center gap-4'>
+                        <div className='flex flex-col xl:flex-row justify-between items-center gap-4'>
                             <div className='w-full xl:w-1/2'>
-                                <img src={Image1} alt="produk1-image" />
+                                <img src={Image3} alt="produk2-image" className="xl:w-[20rem] xl:pb-12"/>
+                            </div>
+                            <div className='w-full xl:w-1/2 flex justify-center'>
+                                <img src={Image1} alt="produk3-image" className='w-[35rem] sm:w-[32rem] xl:w-[75rem]' />
                             </div>
                             <div className='w-full xl:w-1/2'>
-                                <img src={Image2} alt="produk2-image" />
+                                <img src={Image4} alt="produk4-image" className="xl:w-[79rem] xl:pb-8"/>
                             </div>
                         </div>
-                        <div className='flex flex-col xl:flex-row justify-between items-center'>
-                            <div className='w-full xl:w-1/2 flex justify-center'>
-                                <img src={Image3} alt="produk3-image" className='w-[20rem] sm:w-[32rem] xl:w-[40rem]' />
+
+                        <div className='flex flex-col xl:flex-row justify-between items-center gap-4'>
+                            <div className='w-full xl:w-1/2'>
+                                <img src={Image2A} alt="produk1-image" className="xl:w-[90rem]"/>
                             </div>
                             <div className='w-full xl:w-1/2'>
-                                <img src={Image4} alt="produk4-image" />
+                                <img src={Image2B} alt="produk1-image" className="xl:w-[90rem]"/>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
