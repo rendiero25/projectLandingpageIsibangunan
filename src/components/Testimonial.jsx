@@ -11,6 +11,11 @@ import Person3 from "../assets/images/person3.jpg";
 import Person4 from "../assets/images/person4.jpg";
 import Person5 from "../assets/images/person5.jpg";
 import Person6 from "../assets/images/person6.jpg";
+import Person7 from "../assets/images/person7.jpeg";
+import Person8 from "../assets/images/person8.jpeg";
+import Person9 from "../assets/images/person9.jpeg";
+import Person10 from "../assets/images/person10.jpeg";
+
 
 const Testimonial = () => {
     return(
@@ -118,6 +123,62 @@ const Testimonial = () => {
                                         <div className='flex flex-col gap-1 justify-center items-start'>
                                             <p className='font-medium text-sm'>Ir. Hendrik Sitompul, MSc</p>
                                             <p className='font-light text-xs'>Pemilik Dapur MBG</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex flex-col justify-center items-center gap-4 px-8'>
+                                <div className="flex flex-col justify-start items-start gap-4">
+                                    <p className='font-semibold text-xl xl:text-2xl'>“Sukses Selalu Food Tray IsiBangunan.”</p>
+                                    <div className='flex flex-row justify-between items-center gap-4'>
+                                        <img src={Person7} alt="persontesti1-image" className='size-10 rounded-full object-cover'/>
+                                        <div className='flex flex-col gap-1 justify-center items-start'>
+                                            <p className='font-medium text-sm'>Ir. Pangeran Khairul Saleh</p>
+                                            <p className='font-light text-xs'>Bendahara Umum PAN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex flex-col justify-center items-center gap-4 px-8'>
+                                <div className="flex flex-col justify-start items-start gap-4">
+                                    <p className='font-semibold text-xl xl:text-2xl'>“Sukses Selalu Food Tray IsiBangunan.”</p>
+                                    <div className='flex flex-row justify-between items-center gap-4'>
+                                        <img src={Person8} alt="persontesti1-image" className='size-10 rounded-full object-cover'/>
+                                        <div className='flex flex-col gap-1 justify-center items-start'>
+                                            <p className='font-medium text-sm'>Ir. Hendrik Sitompul, MSc</p>
+                                            <p className='font-light text-xs'>Pemilik Dapur MBG</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex flex-col justify-center items-center gap-4 px-8'>
+                                <div className="flex flex-col justify-start items-start gap-4">
+                                    <p className='font-semibold text-xl xl:text-2xl'>“Food tray merk J&J sangat bagus, kokok, dan sesuai standar BGN, recommended.”</p>
+                                    <div className='flex flex-row justify-between items-center gap-4'>
+                                        <img src={Person9} alt="persontesti1-image" className='size-10 rounded-full object-cover'/>
+                                        <div className='flex flex-col gap-1 justify-center items-start'>
+                                            <p className='font-medium text-sm'>Ir. Hendrik Sitompul, MSc</p>
+                                            <p className='font-light text-xs'>Pemilik Dapur MBG</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='flex flex-col justify-center items-center gap-4 px-8'>
+                                <div className="flex flex-col justify-start items-start gap-4">
+                                    <p className='font-semibold text-xl xl:text-2xl'>“always success for food tray isibangunan.”</p>
+                                    <div className='flex flex-row justify-between items-center gap-4'>
+                                        <img src={Person10} alt="persontesti1-image" className='size-10 rounded-full object-cover'/>
+                                        <div className='flex flex-col gap-1 justify-center items-start'>
+                                            <p className='font-medium text-sm'>Mr John Wang</p>
+                                            <p className='font-light text-xs'>CEO BlackBean Technology, China</p>
                                         </div>
                                     </div>
                                 </div>
